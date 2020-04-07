@@ -1,0 +1,74 @@
+.MainPage{
+    height: 300px;
+    padding: 30px;
+
+   
+    background-color: chartreuse;
+    background-image: url('../../assets/screenshot.png');
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.MidSection{
+    
+  
+height: 800px;
+justify-content: space-around;
+background-color: black;
+}
+
+
+.MidSection h2{
+    color:white;
+    font-family: 'Comic Neue', cursive;
+}
+.MidSection{
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+box-sizing: border-box;
+padding: 20px;
+    height: 500px;
+    
+}
+.MidSection div{
+   display: flex;
+   align-items: center;
+}
+.MidSection h2{
+    font-size: 1.8em;
+}
+
+.MidSection img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+border-radius: 50%;
+}
+
+@media(min-width:400px){
+    .MainPage{
+        height: 100vh;
+        overflow:auto; 
+    }
+
+   .MidSection{
+       height: 600px;
+       display: flex;
+       flex-flow: row;
+       box-sizing: border-box;
+       padding: 30px;
+   }
+   .MidSection div{
+       width: 50%;
+      margin: 20px;
+   }
+   .MidSection img{
+       object-fit: contain;
+       border-radius: 0;
+   }
+   
+}
