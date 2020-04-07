@@ -1,0 +1,42 @@
+.HireMe{
+    margin-top:15%;
+    margin-right: 55%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    display: block;
+}
+.HireMe h1{
+font-size:5em;
+color:rgb(201, 119, 119);
+box-shadow: 6px 6px 3px gray;
+}
+.HireMe button{
+    background-color: transparent;
+    color:  rgb(201, 119, 119);
+    font-size: 5em;
+    border:1px solid rgb(201, 119, 119);
+    box-shadow: 6px 6px 3px gray;
+    border-radius: 12px;
+}
+
+.HireMe button:hover{
+    background-color: rgb(201, 119, 119);
+    color:white;
+}
+
+@media(max-width:400px){
+    .HireMe{
+        margin-top: 10%;
+        
+    }
+    .HireMe h1{
+font-size: 1.8em;
+box-shadow: none;
+    }
+    .HireMe button{
+        font-size: 1.2em;
+        border-radius: 5px;
+        padding: 10px;
+        color: black;
+    }
+}

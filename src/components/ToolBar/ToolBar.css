@@ -1,0 +1,31 @@
+.ToolBar{
+   background-color: black;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+}
+@media(min-width:500px){
+    .ToolBar{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media(min-width:800px){
+    .ToolBar{
+     display: flex;
+        justify-content: space-around;
+    }
+}
+@media(max-width:400px){
+    .desktopOnly{
+        display:none;
+    }
+    .Logo{
+        margin:0 20px;
+    }
+}
+.Logo{
+    height: 80%;
+}

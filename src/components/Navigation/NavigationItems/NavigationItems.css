@@ -1,0 +1,15 @@
+.NavigationItems{
+    list-style: none;
+    text-decoration: none;
+align-items: center;
+
+}
+@media(min-width:500px){
+    .NavigationItems{
+       
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+
