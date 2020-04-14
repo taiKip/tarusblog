@@ -45,7 +45,7 @@
     
     .NavigationItem a:hover,
     .NavigationItem a:active,
-    .NavigationItem a:active{
+    .NavigationItem a.active{
        
         color:rgb(180, 121, 121);
     }

@@ -14,22 +14,22 @@ const footer =()=>{
       )
     return (
     <div className={classes.Footer}>
-        <div className={classes.Icons}>
+        <div >
             <IconContext.Provider value={{color:'purple', size:'5rem'}}>
-        <ul>
-               <li>
-                    <FaGithub onClick={gitHubHandler}/>
+        <div className={classes.Icons}>
+               <div >
+                    <FaGithub  onClick={gitHubHandler}/>
               
-               </li>
-               <li>
-               <FaInstagram onClick={instagramHandler}/>
-               </li>
-               <li>
+               </div>
+               <div>
+               <FaInstagram  onClick={instagramHandler}/>
+               </div>
+               <div>
                <FaLinkedin onClick={linkedInHandler}/>
-               </li>
+               </div>
              
            
-           </ul>
+           </div>
            </IconContext.Provider>
         </div>
             

@@ -51,7 +51,7 @@ border-radius: 50%;
 
 @media(min-width:400px){
     .MainPage{
-        height: 100vh;
+        height: 80vh;
         overflow:auto; 
     }
 
@@ -68,7 +68,7 @@ border-radius: 50%;
    }
    .MidSection img{
        object-fit: contain;
-       border-radius: 0;
+       border-radius: 15px;
    }
    
 }
