@@ -1,6 +1,6 @@
 import React from 'react'
-import NavigationItems from '../Navigation/NavigationItems/NavigationItems'
-import Logo from '../Logo/Logo'
+import NavigationItems from '../NavigationItems/NavigationItems'
+import Logo from '../../Logo/Logo'
 import classes from './ToolBar.css'
 import Toggle from '../ToggleButton/ToggleButton'
 const toolBar =(props)=>(

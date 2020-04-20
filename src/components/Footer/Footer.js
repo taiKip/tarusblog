@@ -15,7 +15,7 @@ const footer =()=>{
     return (
     <div className={classes.Footer}>
         <div >
-            <IconContext.Provider value={{color:'purple', size:'5rem'}}>
+            <IconContext.Provider value={{color:'purple', size:'3rem'}}>
         <div className={classes.Icons}>
                <div >
                     <FaGithub  onClick={gitHubHandler}/>
@@ -34,8 +34,8 @@ const footer =()=>{
         </div>
             
      
-        <p>@2019 -All Rights Reserved.Designed and Developed by VictorTarus</p>
-        <button>BACK TO TOP</button>
+        <p>@2020 -All Rights Reserved.Designed and Developed by Victor Tarus</p>
+      
     </div>
 )}
 export default footer;

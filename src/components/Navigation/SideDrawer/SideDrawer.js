@@ -21,7 +21,7 @@ const sideDrawer =(props)=>{
     </div>
   
     <nav>
-        <NavigationItems/>
+        <NavigationItems clicked={props.toggle}/>
     </nav>
 </div>
         </Aux>
