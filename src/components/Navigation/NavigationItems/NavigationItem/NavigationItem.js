@@ -6,7 +6,7 @@ const navigationItem=(props)=>{
    
     return(
 <li className={classes.NavigationItem}>
-      <Link onClick={props.clicked} activeStyle={{color:'purple'}} to={props.Link}>{props.children}</Link> 
+      <Link onClick={props.clicked} activeStyle={{color:'#D9AA8F'}} to={props.Link}>{props.children}</Link> 
     </li>
     )
 }

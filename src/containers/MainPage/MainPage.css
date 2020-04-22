@@ -3,7 +3,7 @@
     padding: 30px;
 
    
-    background-color: chartreuse;
+   
     background-image: url('../../assets/screenshot.png');
   
     background-repeat: no-repeat;
@@ -14,14 +14,14 @@
 .MidSection{
     
   
-height: 800px;
+height: 60vh;
 justify-content: space-around;
-background-color: black;
+background-color: #8979F2;
 }
 
 
 .MidSection h2{
-    color:white;
+    color:#D9AA8F;
     font-family: 'Comic Neue', cursive;
 }
 .MidSection{
@@ -49,14 +49,14 @@ object-fit: contain;
 border-radius: 50%;
 }
 
-@media(min-width:400px){
+@media(min-width:420px){
     .MainPage{
         height: 80vh;
         overflow:auto; 
     }
 
    .MidSection{
-       height: 600px;
+       height: 30vh;
        display: flex;
        flex-flow: row;
        box-sizing: border-box;
@@ -71,4 +71,19 @@ border-radius: 50%;
        border-radius: 15px;
    }
    
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  {
+.MainPage{
+    height: 40vh;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.MidSection{
+    height: 30vh;
+}
 }

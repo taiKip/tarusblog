@@ -7,21 +7,22 @@
 }
 .HireMe h1{
 font-size:5em;
-color:rgb(180, 121, 121);
-
+color:#D9AA8F;
+font-family: inherit;
 font-weight: bold;
 }
 .HireMe button{
-    background-color: transparent;
-    color:rgb(180, 121, 121);
+    background-color:#F2F2F2;
+    color:black;
     font-size: 5em;
     border:1px solid purple;
     box-shadow: 6px 6px 3px gray;
     border-radius: 12px;
+    padding: 10px;
 }
 
 .HireMe button:hover{
-    background-color: purple;
+    background-color: #D9AA8F;
     color:white;
 }
 
@@ -33,12 +34,28 @@ font-weight: bold;
     .HireMe h1{
 font-size: 1.8em;
 box-shadow: none;
-color:rgb(180, 121, 121);
+
     }
     .HireMe button{
         font-size: 1.2em;
         border-radius: 5px;
-        padding: 10px;
+    
         color: black;
     }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  {
+.HireMe h1{
+    font-size: 2.5em;
+}
+.HireMe {
+    margin-top: 5%;
+}
+.HireMe button{
+    font-size: 2em;
+    padding: 20px;
+}
 }

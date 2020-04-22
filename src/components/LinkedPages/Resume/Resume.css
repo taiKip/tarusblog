@@ -2,6 +2,7 @@
     min-height: 60vh;
     box-sizing: border-box;
     padding: 10px;
+    background-color:#F2F2F2 ;
 }
 .Resume ul{
     list-style: none;

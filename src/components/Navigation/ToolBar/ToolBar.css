@@ -1,5 +1,5 @@
 .ToolBar{
-   background-color: black;
+   background-color: #8979F2;
    height: 100px;
    display: flex;
    align-items: center;
@@ -18,7 +18,7 @@
         justify-content: space-around;
     }
 }
-@media(max-width:400px){
+@media(max-width:420px){
     .desktopOnly{
         display:none;
     }

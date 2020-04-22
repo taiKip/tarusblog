@@ -7,6 +7,7 @@ import MainPage from './containers/MainPage/MainPage'
 import PortFolio from './components/LinkedPages/PortFolio/PortFolio'
 import Resume from './components/LinkedPages/Resume/Resume'
 import Projects from './components/LinkedPages/Projects/Projects'
+import Blog from  './components/LinkedPages/Blog/Blog'
 class App extends Component {
   render() {
     return (
@@ -20,6 +21,7 @@ class App extends Component {
 <Route path="/about"component ={About}/>
 <Route path="/resume"  component ={Resume}/>
 <Route path="/projects"  component ={Projects}/>
+<Route path="/blog" component ={Blog}/>
 </Switch>
 
     

@@ -1,0 +1,13 @@
+.Modal{
+    position: fixed;
+    width: 70%;
+    z-index: 200;
+    background-color: #F2F2F2;
+    padding: 10px;
+    top:30%;
+    left: 15%;  
+    transition: transform 0.5s ease-out;
+}
+.NoDisplay{
+    transform: translateY(-100%);
+}

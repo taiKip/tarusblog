@@ -15,7 +15,7 @@ const footer =()=>{
     return (
     <div className={classes.Footer}>
         <div >
-            <IconContext.Provider value={{color:'purple', size:'3rem'}}>
+            <IconContext.Provider value={{color:'#D9AA8F', size:'3rem'}}>
         <div className={classes.Icons}>
                <div >
                     <FaGithub  onClick={gitHubHandler}/>
