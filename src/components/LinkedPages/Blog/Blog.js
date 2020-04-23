@@ -20,7 +20,7 @@ render(){
     ))
     return(
         <section className={classes.Blog}>
-      
+      {posts}
         </section>
     )
 }

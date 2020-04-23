@@ -1,6 +1,33 @@
 .Blog{
     height: 70vh;
-    max-width: 100vh;
+ overflow: scroll;
+  
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait)
+  
+ {
+    .Blog{
+     display: flex;   
+    flex-flow: wrap;
+   align-items: center;
+   justify-content: center;
+    }
+
+}
+
+
+@media (min-width: 800px) 
+
+ {
+    .Blog{
+     display: flex;   
    
+ justify-content: center;
+    }
 
 }

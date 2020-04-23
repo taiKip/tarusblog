@@ -9,3 +9,21 @@ display: flex;
 .BlogPost img{
     width: 50%;
 }
+@media (min-device-width: 700px) 
+ 
+ {
+    .BlogPost{
+     box-sizing: border-box;
+   height: 30vh;
+width: 30vh;
+     justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+    
+    }
+    .BlogPost img{
+        width: 200px;
+        height: 200px;
+    }
+
+}
