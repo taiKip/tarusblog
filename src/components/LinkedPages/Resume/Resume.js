@@ -12,6 +12,7 @@ const resume=()=>(
                   <li>Javascript</li>
                   <li>Css</li>
                   <li>html</li>
+                  <li>Css flexbox</li>
                   <li>Sql</li>
                   <li>Json</li>
                   <li>Firebase</li>
