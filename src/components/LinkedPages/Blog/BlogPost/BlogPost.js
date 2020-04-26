@@ -4,7 +4,8 @@ import classes from './BlogPost.css'
 const blogPost =(props)=>(
     <article className={classes.BlogPost}>
     
-      <img src={props.Link} alt="Blog" />
+      <h1>{props.day}
+      </h1>
      
        <div>
           {props.title}

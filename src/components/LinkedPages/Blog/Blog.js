@@ -4,23 +4,30 @@ import classes from './Blog.css'
 import axios from 'axios'
 class Blog extends Component{
     state={
-        blogPosts:[]
+        blogPosts:''
     }
 componentDidMount(){
-    axios.get('https://jsonplaceholder.typicode.com/photos')
+    axios.get('https://personalblog-39684.firebaseio.com/WeekLyWorkout.json')
 .then(response=>{
-    this.setState({blogPosts:response.data.slice(0,3)})
-    console.log(response)
-})
+   
+   this.setState=({blogPosts:response.data})
+
+}).catch(error=>
+    console.log(error))
 }
 render(){
-    let posts=<p>Something Went wrong</p>
-    posts =[...this.state.blogPosts].map(post =>(
-        <BlogPost Link={post.url}  title={post.title}/>
-    ))
+    
+  let posts =<p>Something went wrong</p>
+   
+  posts =  Object.keys(this.state.blogPosts).map(day=>{
+      return <BlogPost day={day}/>
+  })
+   
+  
+ 
     return(
         <section className={classes.Blog}>
-      {posts}
+{posts}
         </section>
     )
 }
