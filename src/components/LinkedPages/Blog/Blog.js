@@ -3,7 +3,7 @@ import BlogPost from './BlogPost/BlogPost'
 import classes from './Blog.css'
 import axios from 'axios'
 import Spinner from "../../../UI/Spinner/Spinner";
-import Modal from "../../../UI/Modal/Modal";
+
 
 const DAYSOFTHEWEEK=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 function Blog() {
